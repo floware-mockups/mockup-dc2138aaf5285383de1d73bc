@@ -1,0 +1,347 @@
+{
+  "title": "Formazione e presenze operative",
+  "description": "Gestione delle attività formative e delle riunioni, con registrazione delle presenze e statistiche sintetiche per monitorare la partecipazione dei volontari.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle attività formative e della partecipazione registrata.",
+      "metrics": [
+        {
+          "label": "Volontari attivi",
+          "value": "42"
+        },
+        {
+          "label": "Formazioni nell’anno",
+          "value": "18"
+        },
+        {
+          "label": "Presenze registrate",
+          "value": "286"
+        },
+        {
+          "label": "Partecipazione media",
+          "value": "81%"
+        },
+        {
+          "label": "Ore formative",
+          "value": "124"
+        },
+        {
+          "label": "Prossimi incontri",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Periodo",
+        "Formazioni",
+        "Riunioni",
+        "Presenze",
+        "Partecipazione",
+        "Ore formative"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "2",
+          "2",
+          "34",
+          "81%",
+          "12"
+        ],
+        [
+          "Febbraio",
+          "1",
+          "3",
+          "39",
+          "78%",
+          "8"
+        ],
+        [
+          "Marzo",
+          "3",
+          "2",
+          "51",
+          "85%",
+          "22"
+        ],
+        [
+          "Aprile",
+          "2",
+          "2",
+          "42",
+          "84%",
+          "16"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "attivita",
+      "title": "Formazioni e riunioni",
+      "description": "Consulta e filtra le attività, registrando argomento, data e dati utili alla rendicontazione formativa.",
+      "metrics": [],
+      "columns": [
+        "Titolo",
+        "Tipo",
+        "Data",
+        "Luogo",
+        "Durata ore",
+        "Partecipanti",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Primo intervento operativo",
+          "Formazione",
+          "12/02/2025",
+          "Sala Lumo",
+          "4",
+          "16",
+          "Vela",
+          "Completata"
+        ],
+        [
+          "Comunicazioni di squadra",
+          "Formazione",
+          "21/02/2025",
+          "Centro Nubi",
+          "3",
+          "14",
+          "Riva",
+          "Completata"
+        ],
+        [
+          "Riunione mensile",
+          "Riunione",
+          "05/03/2025",
+          "Sala Lumo",
+          "2",
+          "22",
+          "Lumo",
+          "Completata"
+        ],
+        [
+          "Gestione materiali",
+          "Formazione",
+          "14/03/2025",
+          "Deposito Vela",
+          "3",
+          "18",
+          "Nubi",
+          "Completata"
+        ],
+        [
+          "Pianificazione turni",
+          "Riunione",
+          "26/03/2025",
+          "Sala Lumo",
+          "2",
+          "20",
+          "Riva",
+          "Completata"
+        ],
+        [
+          "Esercitazione di squadra",
+          "Formazione",
+          "09/04/2025",
+          "Campo Nubi",
+          "5",
+          "24",
+          "Vela",
+          "Programmato"
+        ]
+      ],
+      "form": [
+        "Titolo",
+        "Tipo",
+        "Data",
+        "Luogo",
+        "Durata ore",
+        "Partecipanti",
+        "Referente",
+        "Stato"
+      ]
+    },
+    {
+      "id": "volontari",
+      "title": "Volontari",
+      "description": "Registro sintetico dei volontari e delle rispettive statistiche di partecipazione e formazione.",
+      "metrics": [
+        {
+          "label": "Volontari registrati",
+          "value": "42"
+        },
+        {
+          "label": "Partecipazione media",
+          "value": "81%"
+        }
+      ],
+      "columns": [
+        "Codice volontario",
+        "Nome",
+        "Squadra",
+        "Ruolo",
+        "Formazioni completate",
+        "Ore formative",
+        "Presenze riunioni",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "VOL-001",
+          "Lumo",
+          "Squadra Vela",
+          "Operativo",
+          "8",
+          "28",
+          "12",
+          "Attivo"
+        ],
+        [
+          "VOL-002",
+          "Nubi",
+          "Squadra Riva",
+          "Logistica",
+          "6",
+          "19",
+          "10",
+          "Attivo"
+        ],
+        [
+          "VOL-003",
+          "Vela",
+          "Squadra Nubi",
+          "Comunicazioni",
+          "7",
+          "24",
+          "11",
+          "Attivo"
+        ],
+        [
+          "VOL-004",
+          "Riva",
+          "Squadra Lumo",
+          "Operativo",
+          "5",
+          "16",
+          "8",
+          "Attivo"
+        ],
+        [
+          "VOL-005",
+          "Timo",
+          "Squadra Vela",
+          "Logistica",
+          "4",
+          "12",
+          "7",
+          "Attivo"
+        ]
+      ],
+      "form": [
+        "Codice volontario",
+        "Nome",
+        "Squadra",
+        "Ruolo",
+        "Formazioni completate",
+        "Ore formative",
+        "Presenze riunioni",
+        "Stato"
+      ]
+    },
+    {
+      "id": "presenze",
+      "title": "Registro presenze",
+      "description": "Registra la partecipazione dei volontari a ogni attività e confronta le presenze con i partecipanti previsti.",
+      "metrics": [
+        {
+          "label": "Presenze del mese",
+          "value": "42"
+        },
+        {
+          "label": "Tasso di partecipazione",
+          "value": "84%"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Data",
+        "Codice volontario",
+        "Nome",
+        "Esito",
+        "Ore riconosciute",
+        "Note",
+        "Registrato da"
+      ],
+      "rows": [
+        [
+          "Primo intervento operativo",
+          "12/02/2025",
+          "VOL-001",
+          "Lumo",
+          "Presente",
+          "4",
+          "Completata",
+          "Vela"
+        ],
+        [
+          "Primo intervento operativo",
+          "12/02/2025",
+          "VOL-002",
+          "Nubi",
+          "Presente",
+          "4",
+          "Completata",
+          "Vela"
+        ],
+        [
+          "Comunicazioni di squadra",
+          "21/02/2025",
+          "VOL-003",
+          "Vela",
+          "Presente",
+          "3",
+          "Completata",
+          "Riva"
+        ],
+        [
+          "Riunione mensile",
+          "05/03/2025",
+          "VOL-004",
+          "Riva",
+          "Assente",
+          "0",
+          "Assenza comunicata",
+          "Lumo"
+        ],
+        [
+          "Gestione materiali",
+          "14/03/2025",
+          "VOL-002",
+          "Nubi",
+          "Presente",
+          "3",
+          "Completata",
+          "Vela"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Data",
+        "Codice volontario",
+        "Nome",
+        "Esito",
+        "Ore riconosciute",
+        "Note",
+        "Registrato da"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "blu-notte",
+    "fonts": "istituzionale"
+  }
+}
