@@ -181,75 +181,75 @@
       ],
       "columns": [
         "Codice volontario",
+        "Cognome",
         "Nome",
         "Squadra",
         "Ruolo",
-        "Formazioni completate",
         "Ore formative",
-        "Presenze riunioni",
-        "Stato"
+        "Stato",
+        "Data di nascita"
       ],
       "rows": [
         [
           "VOL-001",
+          "Marini",
           "Lumo",
           "Squadra Vela",
           "Operativo",
-          "8",
           "28",
-          "12",
-          "Attivo"
+          "Attivo",
+          "12/04/1992"
         ],
         [
           "VOL-002",
+          "Costa",
           "Nubi",
           "Squadra Riva",
           "Logistica",
-          "6",
           "19",
-          "10",
-          "Attivo"
+          "Attivo",
+          "23/09/1988"
         ],
         [
           "VOL-003",
+          "Rinaldi",
           "Vela",
           "Squadra Nubi",
           "Comunicazioni",
-          "7",
           "24",
-          "11",
-          "Attivo"
+          "Attivo",
+          "05/02/1995"
         ],
         [
           "VOL-004",
+          "Ferri",
           "Riva",
           "Squadra Lumo",
           "Operativo",
-          "5",
           "16",
-          "8",
-          "Attivo"
+          "Attivo",
+          "17/11/1990"
         ],
         [
           "VOL-005",
+          "Serra",
           "Timo",
           "Squadra Vela",
           "Logistica",
-          "4",
           "12",
-          "7",
-          "Attivo"
+          "Attivo",
+          "30/06/1997"
         ]
       ],
       "form": [
         "Codice volontario",
+        "Cognome",
         "Nome",
         "Squadra",
         "Ruolo",
-        "Formazioni completate",
         "Ore formative",
-        "Presenze riunioni",
-        "Stato"
+        "Stato",
+        "Data di nascita"
       ]
     },
     {
@@ -268,7 +268,7 @@
       ],
       "columns": [
         "Attività",
-        "Data",
+        "Data di presenza",
         "Codice volontario",
         "Nome",
         "Esito",
@@ -326,11 +326,21 @@
           "3",
           "Completata",
           "Vela"
+        ],
+        [
+          "Inserimento manuale",
+          "18/03/2025",
+          "VOL-005",
+          "Timo",
+          "Presente",
+          "2",
+          "Attività inserita manualmente",
+          "Vela"
         ]
       ],
       "form": [
         "Attività",
-        "Data",
+        "Data di presenza",
         "Codice volontario",
         "Nome",
         "Esito",
@@ -343,5 +353,15 @@
   "theme": {
     "palette": "blu-notte",
     "fonts": "istituzionale"
-  }
+  },
+  "custom": [
+    {
+      "name": "RegistrazionePresenzaManuale",
+      "title": "Registra presenza con attività manuale",
+      "description": "Riquadro di registrazione con attività selezionabili e nome manuale condizionale.",
+      "role": "section",
+      "pageId": "presenze",
+      "position": "form"
+    }
+  ]
 }
